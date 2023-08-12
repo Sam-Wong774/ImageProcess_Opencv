@@ -1,4 +1,53 @@
 <RCC>
-    <qresource prefix="ImageProcess">
+    <qresource prefix="/resource">
+        <file>bin64/resourse/btnCenter.png</file>
+        <file>bin64/resourse/btnCenter2.png</file>
+        <file>bin64/resourse/btnCheck.png</file>
+        <file>bin64/resourse/btnContiRefresh.png</file>
+        <file>bin64/resourse/btnDiffWay.png</file>
+        <file>bin64/resourse/btnDownLoad.png</file>
+        <file>bin64/resourse/btnDownLoad_.png</file>
+        <file>bin64/resourse/btnDownLoad3.png</file>
+        <file>bin64/resourse/btnFile.png</file>
+        <file>bin64/resourse/btnFiles.png</file>
+        <file>bin64/resourse/btnFind.png</file>
+        <file>bin64/resourse/btnFold.png</file>
+        <file>bin64/resourse/btnFold_.png</file>
+        <file>bin64/resourse/btnForbidden.png</file>
+        <file>bin64/resourse/btnInfinity.png</file>
+        <file>bin64/resourse/btnItems.png</file>
+        <file>bin64/resourse/btnList.png</file>
+        <file>bin64/resourse/btnListClose.png</file>
+        <file>bin64/resourse/btnLoading.png</file>
+        <file>bin64/resourse/btnLock.png</file>
+        <file>bin64/resourse/btnMultiChoose.png</file>
+        <file>bin64/resourse/btnPause.png</file>
+        <file>bin64/resourse/btnPercent.png</file>
+        <file>bin64/resourse/btnPlay.png</file>
+        <file>bin64/resourse/btnPlay2.png</file>
+        <file>bin64/resourse/btnPlay3.png</file>
+        <file>bin64/resourse/btnPower.png</file>
+        <file>bin64/resourse/btnQuote.png</file>
+        <file>bin64/resourse/btnRefresh.png</file>
+        <file>bin64/resourse/btnRight.png</file>
+        <file>bin64/resourse/btnRightWay.png</file>
+        <file>bin64/resourse/btnSetting.png</file>
+        <file>bin64/resourse/btnSnapShot.png</file>
+        <file>bin64/resourse/btnTendency.png</file>
+        <file>bin64/resourse/btnTopLine.png</file>
+        <file>bin64/resourse/btnUnLock.png</file>
+        <file>bin64/resourse/btnVolume.png</file>
+        <file>bin64/resourse/btnWhatIs.png</file>
+        <file>bin64/resourse/btnWrong.png</file>
+        <file>bin64/resourse/evaluation.png</file>
+        <file>bin64/resourse/fileopen.png</file>
+        <file>bin64/resourse/filesave.png</file>
+        <file>bin64/resourse/imgCloseAll.ico</file>
+        <file>bin64/resourse/imgExit.ico</file>
+        <file>bin64/resourse/imgOpen.ico</file>
+        <file>bin64/resourse/imgSave.ico</file>
+        <file>bin64/resourse/pointA.cur</file>
+        <file>bin64/resourse/pointB.cur</file>
+        <file>bin64/resourse/pointC.cur</file>
     </qresource>
 </RCC>

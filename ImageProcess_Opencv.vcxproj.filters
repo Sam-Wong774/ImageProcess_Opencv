@@ -21,6 +21,15 @@
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
     </Filter>
+    <Filter Include="Header Files\QVideoWindow">
+      <UniqueIdentifier>{79df3de2-12a3-4149-96c4-a3b7c9965035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QMdiWindow">
+      <UniqueIdentifier>{c7756a95-b12a-4c67-a03f-508b01f5c869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mainForm">
+      <UniqueIdentifier>{c27ef62b-93c6-4f37-8da5-8516b6a42d24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="ImageProcess.qrc">
@@ -29,28 +38,71 @@
     <QtUic Include="ImageProcess.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="ImageProcess.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <ClCompile Include="ImageProcess.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <None Include="ImageProcess_Opencv.ico">
       <Filter>Resource Files</Filter>
     </None>
     <ResourceCompile Include="ImageProcess_Opencv.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MdiAlgorithm.cpp">
+      <Filter>Header Files\QMdiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="QMultiLabel.cpp">
+      <Filter>Header Files\QMdiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="QMultiMdi.cpp">
+      <Filter>Header Files\QMdiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="QMultiMdiSub.cpp">
+      <Filter>Header Files\QMdiWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess.cpp">
+      <Filter>Header Files\mainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Header Files\mainForm</Filter>
+    </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files\mainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="QVideoWin.cpp">
+      <Filter>Header Files\QVideoWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="QVideoLabel.cpp">
+      <Filter>Header Files\QVideoWindow</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QMultiMdi.h">
+      <Filter>Header Files\QMdiWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="QMultiMdiSub.h">
+      <Filter>Header Files\QMdiWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="ImageProcess.h">
+      <Filter>Header Files\mainForm</Filter>
+    </QtMoc>
+    <QtMoc Include="QVideoWin.h">
+      <Filter>Header Files\QVideoWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="QVideoLabel.h">
+      <Filter>Header Files\QVideoWindow</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MdiAlgorithm.h">
+      <Filter>Header Files\QMdiWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\mainForm</Filter>
+    </ClInclude>
+    <ClInclude Include="QMultiLabel.h">
+      <Filter>Header Files\QMdiWindow</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
